@@ -5,7 +5,7 @@ theme: seriph
 # like them? see https://unsplash.com/collections/94734566/slidev
 background: https://cover.sli.dev
 # some information about your slides, markdown enabled
-title: Welcome to Slidev
+title: 毕业答辩PPT
 info: |
   ## Slidev Starter Template
   Presentation slides for developers.
@@ -26,8 +26,14 @@ mdc: true
 
 # 隐私保护的人工智能生成内容研究与设计
 
-班级: 信安201
-姓名: 李文杰
+<br>
+<div>
+  指导老师：唐屹教授
+
+  班级: 信安201
+
+  姓名: 李文杰
+</div>
 
 <div class="pt-12">
   <span @click="$slidev.nav.next" class="px-2 py-1 rounded cursor-pointer" hover="bg-white bg-opacity-10">
@@ -68,8 +74,8 @@ transition: fade-out
 
 #### 数据来源
 
-- **ChatGPT**: [ChatGPT](https://www.zhipuai.cn/) 是由 OpenAI 开发的一款自然语言处理模型
-- **ChatGLM**: [ChatGLM](https://openai.com/) 是国内清华大学AI团队打造一款新一代认知智能大模型
+- **ChatGPT**: [ChatGPT](https://openai.com/) 是由 OpenAI 开发的一款自然语言处理模型
+- **ChatGLM**: [ChatGLM](https://www.zhipuai.cn/) 是国内清华大学AI团队打造一款新一代认知智能大模型
   <br>
 
 在本毕业设计中，选择ChatGPT大模型平台作为第三方模型接口
@@ -382,7 +388,21 @@ background-size: 100%;
 
 ---
 layout: center
-class: text-center
 ---
 
-# END
+# 演示完毕，请评委老师批评指正
+
+<br>
+<div class="font-type">
+导师：唐屹教授
+
+答辩学生：李文杰
+
+</div>
+
+<style>
+ .font-type {
+  font-size: 20px;
+  }
+</style>
+
