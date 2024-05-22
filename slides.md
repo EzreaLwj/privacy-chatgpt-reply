@@ -56,7 +56,8 @@ The last comment block of each slide will be treated as slide notes. It will be 
 -->
 
 ---
-transition: fade-out
+layout: two-cols
+layoutClass: gap-8
 ---
 
 # 背景
@@ -65,23 +66,40 @@ transition: fade-out
 
 #### 存在问题
 
-- 📝 **隐私数据泄露** - OpenAI 会将用户的训练数据提供给其他公司
-- 🎨 **成员推断攻击** - 判定某些特定数据是否在指定的训练集中
-- 🧑‍💻 **数据投毒** - 攻击者向 AI 模型注入恶意训练数据
-- 🤹 **提示注入攻击** - 构造特定的措辞引诱模型作出回答
+<div class="node_one">
+
+  - 📝 **隐私数据泄露** - OpenAI 会将用户的训练数据提供给其他公司
+  - 🎨 **成员推断攻击** - 判定某些特定数据是否在指定的训练集中
+  - 🧑‍💻 **数据投毒** - 攻击者向 AI 模型注入恶意训练数据
+  - 🤹 **提示注入攻击** - 构造特定的措辞引诱模型作出回答
+</div>
 
 <br>
 
 #### 数据来源
 
-- **ChatGPT**: [ChatGPT](https://openai.com/) 是由 OpenAI 开发的一款自然语言处理模型
-- **ChatGLM**: [ChatGLM](https://www.zhipuai.cn/) 是国内清华大学AI团队打造一款新一代认知智能大模型
-  <br>
+<div class="node_two">
+
+  - **ChatGPT**: [ChatGPT](https://openai.com/) 是由 OpenAI 开发的一款自然语言处理模型
+  - **ChatGLM**: [ChatGLM](https://www.zhipuai.cn/) 是国内清华大学AI团队打造一款新一代认知智能大模型
 
 在本毕业设计中，选择ChatGPT大模型平台作为第三方模型接口
+
+</div>
+
+<br>
+
+
 <br>
 <br>
 
+::right::
+
+#### 例子
+
+下图是使用 ChatGLM 作为演示例子
+
+<img src="https://ezreal-tuchuang-1312880100.cos.ap-guangzhou.myqcloud.com/article/image-20240522230217809.png">
 
 <!--
 You can have `style` tag in markdown to override the style for the current page.
@@ -89,6 +107,13 @@ Learn more: https://sli.dev/guide/syntax#embedded-styles
 -->
 
 <style>
+
+.node_one {
+  font-size: 15px;
+}
+.node_two {
+  font-size: 15px;
+}
 h1 {
   background-color: #2B90B6;
   background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
